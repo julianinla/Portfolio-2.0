@@ -1,0 +1,18 @@
+.back {
+	background-image: url('../images/marvel-bg.jpg');
+	background-size: 100%;
+	width: 1366;
+	height: 625;
+}
+
+.head {
+	width: 1366;
+	height: 80;
+	border: 1px solid black;
+}
+
+.headtext {
+	padding: 25px 0px 15px 615px;
+	font-family: 'Play', sans-serif;
+	font-size: 20px;
+}
