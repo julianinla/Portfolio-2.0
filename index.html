@@ -13,20 +13,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	</head>
 	<body>
-		<header id='head'>
-			<h2 class="title" name="title">
+		<header id='head2'>
+			<h2 class="title">
 				Julian van Riet
 			</h2>
-			<section class="inline">
-				<a href="#home" rel="" class="links nav"> Home </a>
-				<a href="#about" class="links nav"> About Me </a>
-				<a href="#img" class="links nav"> Image Gallery </a>
-				<a href="#work" class="links nav"> Projects </a>
-				<a href="http://www.facebook.com/julian.vanriet" class="links nav"> Facebook </a>
-				<a href="http://twitter.com/" class="links nav"> Twitter </a>
+			<section class="inline" id="container">
+				<div rel="" class="links nav openHome" id="home"> Home </div>
+				<div class="links nav" id="about"> About Me </div>
+				<div class="links nav" id="img"> Image Gallery </div>
+				<div class="links nav" id="projects"> Projects </div>
+				<div class="links nav" id="contacts"> Contacts </div>
+				<div class="links nav" id="blog"> Blog </div>
 			</section>
 		</header>
 		<div  class="back">	
+			<div id="overlay">
+			</div>
 		</div>
+		<script src="js/main.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
