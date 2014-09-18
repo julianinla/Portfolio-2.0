@@ -4,6 +4,8 @@
 	width: 1366;
 	height: 625;
 	display: inline-block;
+	margin: 78px 0px 0px 0px;
+	f
 }
 
 .head {
@@ -116,6 +118,9 @@ a:hover {text-decoration: none;}
 #head2 {
 	border-bottom: 1px solid black;
 	font-family: 'Play', sans-serif;
+	position: fixed;
+	background-color: white;
+	color: black;
 }
 
 #bodyback {
@@ -263,4 +268,5 @@ a:hover {text-decoration: none;}
     color: white;
     width: 1360;
 	height: 625;
+	position: relative;
 }

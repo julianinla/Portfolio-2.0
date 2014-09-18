@@ -1,13 +1,14 @@
-$('.openAbout').click(function () {
-$('#overlay').fadeIn('slow');
-$('#popupBox').fadeIn('slow');
-$('#popupContent').fadeIn('slow');    
+
+
+$('.openAbout').click(function click1() {
+	$('#overlay').fadeIn('slow');
+	$('#popupBox').fadeIn('slow');
+	$('#popupContent').fadeIn('slow');    
 });
 
 
-
-$('#overlay, .exitButton').click(function () {
-$('#overlay').fadeOut('slow');
-$('#popupBox').fadeOut('slow');
-    $('#popupContent').fadeOut('slow');    
-});
+	$('#overlay, .closeoverlay').click(function () {
+		$('#overlay').fadeOut('slow');
+		$('#popupBox').fadeOut('slow');
+    	$('#popupContent').fadeOut('slow');   
+	});
