@@ -12,3 +12,7 @@ $('.openAbout').click(function click1() {
 		$('#popupBox').fadeOut('slow');
     	$('#popupContent').fadeOut('slow');   
 	});
+
+$(window).scroll(function(){
+  $(".back").stop().animate({"marginTop": ($(window).scrollTop()) + "px", "marginLeft":($(window).scrollLeft()) + "px"}, "slow" );
+});
