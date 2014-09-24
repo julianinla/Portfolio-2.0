@@ -5,6 +5,7 @@
 	height: 625;
 	display: inline-block;
 	margin: 78px 0px 0px 0px;
+	position: relative;
 }
 
 .head {
@@ -32,9 +33,11 @@
 	}
 	.links {
 		width: 100%; 
-		padding: 10px 45px 10px 0px;
+		padding: 10px 75px 10px 0px;
 		text-align: center !important;
 		border: 1px solid black;
+	}
+	.displaynone {
 		display: none;
 	}
 	.title {
@@ -46,10 +49,21 @@
 		height: 90%;
 		background-image: url('../images/civilwar.jpg');
 		position: fixed;
+		float: back;
 	}
 	.hammenu {
 		display: inline-block;
 		margin: 0px 0px 0px 10px;
+	}
+	.inline {
+		position: absolute;
+		margin: 0px 0px 50px 0px;
+	}
+	#popupBox {
+		width: 10% !important;
+		height: 10% !important;
+		margin: 0px;
+		text-align: left;
 	}
 }
 
@@ -182,7 +196,7 @@ a:hover {text-decoration: none;}
 	font-size: 14px;
 }
 
-.aboutme {
+#aboutme {
 	margin: 0px 30px 15px 50px;
 	padding: 0px 30px 15px 25px;
 	text-align: center;
@@ -290,7 +304,13 @@ a:hover {text-decoration: none;}
     color: white;
     width: 1360;
 	height: 625;
-	position: fixed;
+	position: relative;
+}
+
+.more {
+	color: white;
+	height: 30px;
+	width: 30px;
 }
 
 

@@ -1,5 +1,3 @@
-
-
 $('.openAbout').click(function click1() {
 	$('#overlay').fadeIn('slow');
 	$('#popupBox').fadeIn('slow');
@@ -13,16 +11,20 @@ $('.openAbout').click(function click1() {
     	$('#popupContent').fadeOut('slow');   
 	});
 
-$(window).scroll(function(){
-  $(".back").stop().animate({"marginTop": ($(window).scrollTop()) + "px", "marginLeft":($(window).scrollLeft()) + "px"}, "slow" );
+// $(window).scroll(function(){
+//   $(".back").stop().animate({"marginTop": ($(window).scrollTop()) + "px", "marginLeft":($(window).scrollLeft()) + "px"}, "slow" );
+// });
+
+$(".hammenu").click(function(){
+   $(".links").removeClass('.displaynone');
 });
 
-var menu = document.getElementById('links');
+var more = document.getElementById("more");
 
 window.onload=function(){
-	addEventListener('click', menu, false);
-}
+	more.addEventListener('click', textChange, false);
+};
 
-function menu () {
-	menu.style="display: inline-block";
+function textChange(){
+	document.getElementByClass("aboutme").innerHTML="I am a comic book lover. ";
 }
