@@ -2,7 +2,7 @@
 	background-image: url('../images/marvel-bg.jpg');
 	background-size: 100%;
 	width: 1366;
-	height: 1050;
+	height: 1350;
 	display: inline-block;
 	margin: 78px 0px 0px 0px;
 	position: relative;
@@ -308,6 +308,39 @@ a:hover {text-decoration: none;}
 }
 
 #popupContent {
+    display:none;
+    color: white;
+    width: 1360;
+	height: 625;
+	position: relative;
+}
+
+#popupBox2 {
+    display:inline-block;  
+    position: relative;
+    color: black;
+    z-index: 3;
+   	width: 1363;
+	height: 625;
+}
+
+#popupContent2 {
+    display:none;
+    color: white;
+    width: 1360;
+	height: 625;
+	position: relative;
+}
+#popupBox3 {
+    display:inline-block;  
+    position: relative;
+    color: black;
+    z-index: 3;
+   	width: 1363;
+	height: 625;
+}
+
+#popupContent3 {
     display:none;
     color: white;
     width: 1360;
