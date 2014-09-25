@@ -6,6 +6,8 @@
 	display: inline-block;
 	margin: 78px 0px 0px 0px;
 	position: relative;
+	z-index: -1;
+	background-attachment: fixed;
 }
 
 .head {
@@ -33,7 +35,7 @@
 	}
 	.links {
 		width: 100%; 
-		padding: 10px 75px 10px 0px;
+		padding: 10px 75px 10px 0px !important;
 		text-align: center !important;
 		border: 1px solid black;
 	}
@@ -49,21 +51,24 @@
 		height: 90%;
 		background-image: url('../images/civilwar.jpg');
 		position: fixed;
-		float: back;
 	}
+
 	.hammenu {
 		display: inline-block;
 		margin: 0px 0px 0px 10px;
 	}
 	.inline {
 		position: absolute;
-		margin: 0px 0px 50px 0px;
+		margin: 100px 0px 50px 0px;
 	}
 	#popupBox {
 		width: 10% !important;
 		height: 10% !important;
 		margin: 0px;
 		text-align: left;
+	}
+	.overlay {
+		width: 100%;
 	}
 }
 
@@ -157,6 +162,7 @@ a:hover {text-decoration: none;}
 	background-color: white;
 	color: black;
 	width: 100%;
+	float: top;
 }
 
 #bodyback {
@@ -210,6 +216,7 @@ a:hover {text-decoration: none;}
 	text-align: center;
 	font-family: 'Play', sans-serif;
 	font-size: 25px;
+	background-color: none;
 }
 
 .aboutcode {
@@ -232,6 +239,7 @@ a:hover {text-decoration: none;}
 	display: inline-block;
 	font-family: 'Play', sans-serif;
 	vertical-align: top;
+
 }
 
 .aboutgame {
@@ -282,10 +290,10 @@ a:hover {text-decoration: none;}
     background-color:black;
     position:fixed;
     width: 1363;
-	height: 625;
+	height: 1025;
     top:0px;
     left:0px;
-    z-index: 1;
+    z-index: 2;
     margin: 77px 0px 0px 0px;
 
 }
@@ -294,7 +302,7 @@ a:hover {text-decoration: none;}
     display:inline-block;  
     position: relative;
     color: black;
-    z-index: 1000;
+    z-index: 3;
    	width: 1363;
 	height: 625;
 }
