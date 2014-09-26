@@ -185,6 +185,11 @@
 	font-family: 'Play', sans-serif;
 }
 
+.links3 {
+	color: white;
+	font-family: 'Play', sans-serif;
+}
+
 
 a {text-decoration: none;}
 a:hover {text-decoration: none;}  
@@ -234,7 +239,7 @@ a:hover {text-decoration: none;}
 }
 
 #facebook {
-	background-image: url('../Portfolio 2.0/images/facebook-icon.jpg');
+	background-image: url('../images/facebook-icon.jpg');
 	background-size: 100%;
 	height: 23px;
 	width: 23px;
@@ -244,7 +249,7 @@ a:hover {text-decoration: none;}
 }
 
 #twitter {
-	background-image: url('../Portfolio 2.0/images/twitter-icon.png');
+	background-image: url('../images/twitter-icon.png');
 	background-size: 100%;
 	height: 18px;
 	width: 18px;
@@ -268,7 +273,7 @@ a:hover {text-decoration: none;}
 }
 
 #marvel-bg {
-	background-image: url('../Portfolio 2.0/images/marvel-bg.jpg');
+	background-image: url('../images/marvel-bg.jpg');
 	height: 560px;
 	width: 1348px;
 	background-size: 100%;
