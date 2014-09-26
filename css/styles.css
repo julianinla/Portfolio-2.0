@@ -342,6 +342,19 @@ a:hover {text-decoration: none;}
 	position: relative;
 }
 
+#popupBox4 {
+    display:inline-block;  
+    position: relative;
+    color: black;
+    z-index: 3;
+}
+
+#popupContent4 {
+    display:none;
+    color: white;
+	position: relative;
+}
+
 .more {
 	color: white;
 	height: 30px;

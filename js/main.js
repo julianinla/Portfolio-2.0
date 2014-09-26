@@ -43,6 +43,22 @@ $('#overlay, .closeoverlay').click(function () {
 		$('#popupContent3').fadeOut('slow');   
 });
 
+$('.openCont').click(function click1() {
+	$('#overlay').fadeOut('slow');
+	$('#popupBox3').fadeOut('slow');
+	$('#popupContent3').fadeOut('slow'); 
+	$('#overlay').fadeIn('slow');
+	$('#popupBox4').fadeIn('slow');
+	$('#popupContent4').fadeIn('slow');    
+});
+
+
+$('#overlay, .closeoverlay').click(function () {
+		$('#overlay').fadeOut('slow');
+		$('#popupBox4').fadeOut('slow');
+		$('#popupContent4').fadeOut('slow');   
+});
+
 
 $(window).scroll(function(){
   $("#head2").stop().animate({"marginTop": ($(window).pageTop()) + "px", "marginLeft":($(window).scrollLeft()) + "px"}, "slow" );
