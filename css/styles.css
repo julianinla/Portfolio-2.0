@@ -2,7 +2,7 @@
 	background-image: url('../images/marvel-bg.jpg');
 	background-size: 100%;
 	width: 1366;
-	height: 1050;
+	height: 1300;
 	display: inline-block;
 	margin: 78px 0px 0px 0px;
 	position: relative;
@@ -35,9 +35,11 @@
 	}
 	.links {
 		width: 100%; 
-		padding: 10px 75px 10px 0px !important;
+		padding: 27px 5px 27px 5px !important;
 		text-align: center !important;
-		border: 1px solid black;
+		border: 1px solid white;
+		color: white;
+		background-color: white;
 	}
 	.displaynone {
 		display: none;
@@ -52,14 +54,33 @@
 		background-image: url('../images/civilwar.jpg');
 		position: fixed;
 	}
-
-	.hammenu {
-		display: inline-block;
-		margin: 0px 0px 0px 10px;
-	}
 	.inline {
 		position: absolute;
-		margin: 100px 0px 50px 0px;
+		margin: 100px 0px 0px 0px;
+	}
+	#popupContent {
+		width: 10% !important;
+		height: 10% !important;
+		margin: 0px;
+		text-align: left;
+	}
+	#popupContent2 {
+		width: 10% !important;
+		height: 10% !important;
+		margin: 0px;
+		text-align: left;
+	}
+	#popupContent3 {
+		width: 10% !important;
+		height: 10% !important;
+		margin: 0px;
+		text-align: left;
+	}
+	#popupContent4 {
+		width: 10% !important;
+		height: 10% !important;
+		margin: 0px;
+		text-align: left;
 	}
 	#popupBox {
 		width: 10% !important;
@@ -67,7 +88,84 @@
 		margin: 0px;
 		text-align: left;
 	}
+	#popupBox2 {
+		width: 10% !important;
+		height: 10% !important;
+		margin: 0px;
+		text-align: left;
+	}
+	#popupBox3 {
+		width: 10% !important;
+		height: 10% !important;
+		margin: 0px;
+		text-align: left;
+	}
+	#popupBox4 {
+		width: 10% !important;
+		height: 10% !important;
+		margin: 0px;
+		text-align: left;
+	}
 	.overlay {
+		width: 100%;
+	}
+	#aboutme {
+		font-size: 14px !important;
+		text-align: left;
+		margin: 10px !important;
+		padding: 10px !important;
+		width: 100%;
+	}
+	.aboutme2 {
+		font-size: 14px !important; 
+		width: 100%;
+		margin: 0px;
+	}
+	.aboutcoldplay {
+		font-family: 'Play', sans-serif;
+		font-size: 14px;
+		width: 100%;
+	}
+
+	.aboutcode {
+		margin: 0px 130px 0px 155px !important;
+		padding: 0px 130px 0px 150px !important;
+		font-family: 'Play', sans-serif;
+		width: 100%;
+	}
+
+	.aboutmusic {
+		margin: 0px 45px 15px 310px;
+		display: inline-block;
+		height: 300px;
+		width: 355px;
+		font-family: 'Play', sans-serif;
+		vertical-align: top;
+		width: 100%;
+	}
+
+	.aboutcomic {
+		margin: 0px 275px 15px 310px;
+		display: inline-block;
+		font-family: 'Play', sans-serif;
+		vertical-align: top;
+		width: 100%;
+
+	}
+
+	.aboutgame {
+		margin: 0px 275px 15px 310px;
+		display: inline-block;
+		font-family: 'Play', sans-serif;
+		vertical-align: top;
+		width: 100%;
+	}
+
+	.musicplay {
+		display: inline-block;
+		font-family: 'Play', sans-serif;
+		margin: 0px 190px 15px 50px;
+		vertical-align: top;
 		width: 100%;
 	}
 }
@@ -211,12 +309,22 @@ a:hover {text-decoration: none;}
 }
 
 .aboutme2 {
-	margin: 0px 30px 15px 50px;
+	margin: 30px 30px 15px 50px;
 	padding: 0px 30px 15px 25px;
 	text-align: center;
 	font-family: 'Play', sans-serif;
 	font-size: 25px;
 	background-color: none;
+}
+
+.info {
+	margin: 0px 30px 15px 50px;
+	padding: 0px 30px 15px 25px;
+	text-align: center;
+	font-family: 'Play', sans-serif;
+	font-size: 21px;
+	background-color: none;
+	color: white;
 }
 
 .aboutcode {
